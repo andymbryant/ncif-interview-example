@@ -22,6 +22,11 @@ The NCIF Data Integration API is a backend service designed to integrate, proces
 
 ### **1. Prerequisites**
 - Python 3.8 or later
+- Create and activate a virtual environment:
+  ```bash
+  python -m venv .venv
+  source .venv/bin/activate  # On Windows use `.venv\Scripts\activate`
+  ```
 - Install dependencies:
   ```bash
   pip install -r requirements.txt
